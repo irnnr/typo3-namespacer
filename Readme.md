@@ -9,8 +9,8 @@ name at the beginning of the script. Then run `php migrate.php`.
 
 This will result in two files being created:
 
-    * `Migrations/Code/ClassAliasMap.php` - allows backwards compatibility for extensions still using the old non-namespaced class names
-    * `Migrations/Code/LegacyClassesForIde.php` - allows IDEs to provide code completion on old non-namespaced class usages and mark them as deprecated
+* `Migrations/Code/ClassAliasMap.php` - allows backwards compatibility for extensions still using the old non-namespaced class names
+* `Migrations/Code/LegacyClassesForIde.php` - allows IDEs to provide code completion on old non-namespaced class usages and mark them as deprecated
 
 ##Why
 
