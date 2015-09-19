@@ -12,6 +12,10 @@ This will result in two files being created:
 * `Migrations/Code/ClassAliasMap.php` - allows backwards compatibility for extensions still using the old non-namespaced class names
 * `Migrations/Code/LegacyClassesForIde.php` - allows IDEs to provide code completion on old non-namespaced class usages and mark them as deprecated
 
+##Requirements
+
+Needs PHP 5.4.32+ or 5.5.16+
+
 ##Why
 
 We released the Apache Solr for TYPO3 extension (EXT:solr) in version 3.0 with
